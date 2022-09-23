@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>Frontend Mentor | Site de página única da agência de criação</title>
+</head>
+<body>
+  <header class="flex-row">
+    <a href="#" class="logo"><img src="./assets/desktop/logo.svg" alt="Creative"></a>
+    <button type="button" aria-label="Hamburger" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <a href="#">Sobre</a>
+      <a href="#">Serviço</a>
+      <a href="#">Projetos</a>
+      <button type="button" class="btn btn-black" aria-label="Schedule a call">Agende uma chamada</button>
+    </nav>
+  </header>
+  
+  <section class="branding">
+    <div class="width50">
+      <h1>Agência de design de marca e site&nbsp;</h1>
+    <p>
+      Somos especializados em narrativa visual, criando marca coesa e design de site
+   soluções para pequenas empresas, dando impressões duradouras ao público em um mundo digital.
+    </p>
+    <button type="button" class="btn btn-red" aria-label="Learn more">Saber mais</button>
+    </div>
+    
+  </section>
+  <section class="design flex-row">
+    <span class="wave"></span>
+    <div class="design-bg"></div>
+    <div class="design-text">
+      <h2><span>Design</span> é estratégico.</h2>
+      <p>  Uma estratégia de design bem elaborada produz consistentemente os resultados desejados e o reconhecimento da marca.
+        Acreditamos firmemente que o sucesso está na colaboração criativa com nossos clientes.</p>
+      <button type="button" class="btn-link" aria-label="Schedule a call">Agende uma chamada</button>
+    </div>
+  </section>
+  
+  <section class="strategy flex-row">
+    <div class="strategy-bg"></div>
+    <div class="left">
+      <h2>Nossa abordagem para criar uma marca vencedora</h2>
+    </div>
+    <div class="right">
+      <ul>
+        <li>
+          <h1>01</h1>
+          <div class="strategy-text">
+            <p class="strategy-title">Estratégia de marca</p>
+            <p>A estratégia de marca é fundamental para o sucesso a longo prazo. Superando concorrentes e capturando
+              o público-alvo são fundamentais.</p>                           
+          </div>
+        </li>
+        <li>
+          <h1>02</h1>
+          <div class="strategy-text">
+            <p class="strategy-title">Design de marca</p>
+          <p>
+            Manter o design da marca único e significativo ajuda a comunicar o caráter atemporal da marca.
+   valor de forma eficaz.
+          </p>
+          </div>
+        </li>
+        <li>
+          <h1>03</h1>
+          <div class="strategy-text">
+            <p class="strategy-title">Designer de Web</p>
+            <p>
+              Um site bem elaborado é a melhor ferramenta para o reconhecimento da marca e, em última análise, os resultados
+     no aumento das receitas.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <section class="slider flex-row">
+    <span class="wave"></span>
+    <div class="left">
+      <div class="slider-main-title flex-column">
+        <div class="slide fade"><h2>Nomenclatura & diretrizes da marca</h2></div>
+        <div class="slide fade"><h2>Identidade & mercadoria da marca</h2></div>
+        <div class="slide fade"><h2>Identidade da marca & web design</h2></div>
+        <div class="buttons flex-row">
+          <button type="button" aria-label="left" class="slider-btn slider-btn-left"></button>
+          <button type="button" aria-label="right" class="slider-btn slider-btn-right"></button>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="slide fade" style="background: url('./assets/desktop/image-slide-1.jpg') no-repeat;">
+        <div class="text">
+          <div class="slide-title">Roteiro de Produto Enxuto </div>
+          <div class="slide-desc">Projeto de 2019</div>
+        </div>
+      </div>
+      <div class="slide fade" style="background: url('./assets/desktop/image-slide-2.jpg') no-repeat;">
+        <div class="text">
+          <div class="slide-title">Novo hotel Majestoso</div>
+          <div class="slide-desc">Projeto de 2018</div>
+        </div>
+      </div>
+      <div class="slide fade" style="background: url('./assets/desktop/image-slide-3.jpg') no-repeat;">
+        <div class="text">
+          <div class="slide-title">Painel de Criptomoedas</div>
+          <div class="slide-desc">Projeto de 2016</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer flex-row">
+    <div class="wave"></div>
+    <h2>Vamos construir algo grande juntos.</h2>
+    <button type="button" class="btn btn-red" aria-label="Schedule a Call">Agende uma chamada</button>
+  </footer>
+
+  <script defer src="./script.js"></script>
+</body>
+</html>
